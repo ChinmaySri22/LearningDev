@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #2222;
+    min-height: 100vh;
+}
+
+nav, footer {
+    flex-shrink: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display:flex;
+    padding-left: 10vh;
+    padding-top: 1vh;
+}
+
+.logo div{
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.btn {
+    display:flex;
+    padding-right: 10vh;
+    padding-top: 1vh;
+}
+
+.btn img{
+    padding-left: 5px;
+}
+
+.btn input value[Subscribe]{
+    padding-left: 5px;
+}
+
+section {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15vh;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh;
+}
+
+.logo1 {
+    display:flex;
+    padding-top: 1vh;
+    font-weight: bold
+}
+
+footer div p {
+    max-width: 60%;
+    padding-bottom: 10px;
+}
+
+#underline {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding-top: 3vh;
+    max-width: 40%;
+}
+
+.footer2 ul{
+    list-style: none;
+    padding-top: 10px;
+    font-size: small;
+    text-decoration: underline;
+}
